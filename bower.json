@@ -1,0 +1,21 @@
+{
+  "name": "Site Responsivo",
+  "homepage": "https://github.com/Jh0nat4nGamer/Site-Responsivo",
+  "authors": [
+    "Jhonatan <Jhonatan.S.Oliveira96@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
