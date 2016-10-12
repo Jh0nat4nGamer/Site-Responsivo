@@ -1,0 +1,22 @@
+{
+  "name": "tcc-site-responsivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jh0nat4nGamer/Site-Responsivo.git"
+  },
+  "author": "Jhonatan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jh0nat4nGamer/Site-Responsivo/issues"
+  },
+  "homepage": "https://github.com/Jh0nat4nGamer/Site-Responsivo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
