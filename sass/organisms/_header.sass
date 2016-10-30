@@ -1,6 +1,6 @@
 header
 	+clearfix
-	min-height:  480px
+	min-height: 475px
 	position: relative
 
 	&:after
@@ -12,29 +12,20 @@ header
 		height: 45px
 		+gradient(90deg, $verde, $azul)
 
-	background: 
-		image: url('../imagens/fundo-slide.jpg')
-		position: top center
-		repeat: no-repeat
-		color: $preto
-		attachment: fixed
-		size: cover
-
-
 	.logo
 		float: left
-		margin: 30 0 0
+		margin: 40px 0 0 
 		img
-			width: 100px
-			height: 95px
+			width: 90px
+			height: 80px
 
 	.links
-		float:  right
+		float: right
 		margin: 35px 0 0
 
 		nav,
 		.social
-			display:  inline-block
+			display: inline-block
 
 		nav
 			+breakpoint($tablet)
@@ -45,14 +36,28 @@ header
 
 			ul
 				li
-					display:  inline-block
+					display: inline-block
 					margin: 0 20px 0 0
 					a
 						color: $branco
 						text-transform: uppercase
+
+						&:hover
+							&:after
+								width: 40%
+
+						&:after
+							content: ""
+							display: table
+							margin: 5px auto 0
+							width: 0%
+							height: 2px
+							background-color: $branco
+							+transition(.3s)
+
 		.social
 			li
-				display:  inline-block
+				display: inline-block
 				margin: 0 5px 0 0
 				a
 					color: $branco
@@ -67,15 +72,14 @@ header
 
 	h1
 		clear: both
-		margin:  200px auto 30px auto !important
+		margin: 190px auto 30px auto !important
 		font-weight: $light
 		border: 3px solid $branco
 		padding: 20px
 		display: table
 		+breakpoint($celular)
 			+font-size(40px)
-
-
+			
 	h1,
 	p
 		color: $branco
